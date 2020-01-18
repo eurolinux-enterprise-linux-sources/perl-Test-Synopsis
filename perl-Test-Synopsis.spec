@@ -1,6 +1,6 @@
 Name:		perl-Test-Synopsis
 Version:	0.06
-Release:	15%{?dist}
+Release:	16%{?dist}
 Summary:	Test your SYNOPSIS code
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -64,6 +64,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Test::Synopsis.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.06-16
+- Mass rebuild 2013-12-27
+
 * Thu Oct 25 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.06-15
 - Specify all dependencies.
 
